@@ -31,12 +31,22 @@ void SampleController :: arrayLoop()
     
     for(int i = 0; i < 10; i ++)
     {
-        cout << "Counting by " << i + 1 << endl;
+        cout << "Counting up by " << i + 1 << "s" << endl;
         
         for(int j = 0; j < 10; j++)
         {
             numbers[i][j] = (i + 1) * (j + 1);
             
+            cout << "Count: " << numbers[i][j] << endl;
+        }
+    }
+    
+    for(int j = 9; j >= 0; j --)
+    {
+        cout << "Counting down by " << j + 1 << "s" << endl;
+        
+        for(int i = 9; i >= 0; i --)
+        {
             cout << "Count: " << numbers[i][j] << endl;
         }
     }

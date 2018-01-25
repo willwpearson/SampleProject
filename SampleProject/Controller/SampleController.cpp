@@ -22,11 +22,33 @@ void SampleController :: start()
         cout << "This is the " << index + 1 << "nth time in the loop" << endl;
     }
     
-    arrayLoop();
+    consoleOutput();
+    arrayLoops();
 }
 
-void SampleController :: arrayLoop()
+void SampleController :: consoleOutput()
 {
+    int number = 1;
+    double decimal = 2.3;
+    string name = "William Pearson";
+    
+    cout << "My name is " << name << "." << endl;
+    
+    for(int index = 13; index < 32; index ++)
+    {
+        cout << index;
+    }
+    
+    cout << endl;
+    
+    cout << &name << endl;
+    
+    cout << "An example of an int is: " << number << ". An example of a double is: " << decimal << "." << endl;
+}
+
+void SampleController :: arrayLoops()
+{
+    //Int array
     int numbers [10][10];
     
     for(int i = 0; i < 10; i ++)
@@ -49,5 +71,13 @@ void SampleController :: arrayLoop()
         {
             cout << "Count: " << numbers[i][j] << endl;
         }
+    }
+    
+    //Double array
+    double decimals [3];
+    
+    for(int i = 0; i < 3; i ++)
+    {
+        
     }
 }

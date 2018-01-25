@@ -16,6 +16,7 @@ class SampleController
 private:
     //Just like Java
     //Data members and internal methods
+    void arrayLoop();
 protected:
     //Used for inheritance
 public:

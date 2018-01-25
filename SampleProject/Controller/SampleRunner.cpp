@@ -6,4 +6,10 @@
 //  Copyright © 2018 CTEC. All rights reserved.
 //
 
-#include <stdio.h>
+#include "SampleController.hpp"
+
+int main()
+{
+    SampleController app;
+    app.start();
+}

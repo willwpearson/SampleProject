@@ -9,6 +9,19 @@
 #ifndef SampleController_hpp
 #define SampleController_hpp
 
-#include <stdio.h>
+#include <iostream>
+
+class SampleController
+{
+private:
+    //Just like Java
+    //Data members and internal methods
+protected:
+    //Used for inheritance
+public:
+    //Externally visible.
+    SampleController();
+    void start();
+};
 
 #endif /* SampleController_hpp */

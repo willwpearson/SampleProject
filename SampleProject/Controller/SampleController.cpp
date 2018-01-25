@@ -78,6 +78,18 @@ void SampleController :: arrayLoops()
     
     for(int i = 0; i < 3; i ++)
     {
+        decimals[i] = ((i + 1) * 3.14159);
         
+        cout << decimals[i] << endl;
+    }
+    
+    //String array
+    string addresses [3];
+    
+    for(int i = 0; i < 3; i++)
+    {
+        addresses[i] = "memes";
+        
+        cout << addresses[i] << endl;
     }
 }
